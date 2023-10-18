@@ -21,7 +21,7 @@ function Main() {
                         <span>아빠 김종준</span>
                         <FontAwesomeIcon icon={faHeart} color='#ff4e7f' className='mx-1' /><span>엄마 남보배</span>
                         <p>2023년 11월 24일 AM 11시 00분</p>
-                        <p>장소장소장소장소장소</p>
+                        <p>본페뜨 파티하우스 일산점</p>
                     </div>
                     <div className="px-[16%] py-[40px] ">
                         <span className='mb-[20px] tracking-wide'>초대합니다</span>
