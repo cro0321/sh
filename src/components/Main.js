@@ -2,6 +2,7 @@ import { faHeart,faEllipsis,faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import Calendar from './Calendar'
+import Album from './Album'
 
 
 function Main() {
@@ -19,7 +20,7 @@ function Main() {
                     <div className="pb-[30px] ">
                         <span>아빠 김종준</span>
                         <FontAwesomeIcon icon={faHeart} color='#ff4e7f' className='mx-1' /><span>엄마 남보배</span>
-                        <p>2023년 11월 24일 PM 14시 00분</p>
+                        <p>2023년 11월 24일 AM 11시 00분</p>
                         <p>장소장소장소장소장소</p>
                     </div>
                     <div className="px-[16%] py-[40px] ">
@@ -46,7 +47,8 @@ function Main() {
               <span>남보배</span><FontAwesomeIcon icon={faEllipsis} className='mx-2' /><button onClick="document.location.href='tel:010-2814-7361'"><a href="tel:010-2814-7361"><FontAwesomeIcon icon={faPhone} /></a></button>
               </div>
           </div>
-          {/* <Calendar/> */}
+          <Calendar/>
+          <Album/>
                 </div>
                 
                   
