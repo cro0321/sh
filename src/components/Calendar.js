@@ -40,7 +40,7 @@ function Calendar() {
 
   return (
    <>
-   <div className="mx-3  h-full">
+   <div className="px-3 pt-[40px] pb-[80px]  h-full">
 <div className="container mx-auto ">
            <h2 className='mb-4 '>{year}년 {month+1}월</h2>
            <div className='grid grid-cols-7'>
