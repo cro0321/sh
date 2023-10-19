@@ -1,8 +1,9 @@
-import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { faCakeCandles } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import dayjs from 'dayjs';
 import React, { useState } from 'react'
 import "react-datepicker/dist/react-datepicker.css";
+
 
 function Calendar() {
   const year = 2023;
@@ -16,18 +17,21 @@ function Calendar() {
   let datesArray = [];
 
   for(let i=firstDay.getDay(); i>0; i--){
-      datesArray.push(<div key={`before-${i}`} className=" h-10 "></div>);
+      datesArray.push(<div key={`before-${i}`} className=" h-10  "></div>);
     }
 
     for(let i=1; i<=lastDay.getDate(); i++){
 
       let dateInWeek = new Date(year, month, i).getDay();
       if (i === 24) {
-        datesArray.push(<div key={i} className="border-b border-red-500 h-10 ">{i}</div>);
+        datesArray.push(<div key={i} className="py-2  h-10 "><img className='
+         w-6 h-6 block mx-auto'  src="./../Images/1.jpg" alt="시훈" /></div>);
+        // <img  src="./../Images/1.jpg" alt="시훈" />
+        //<FontAwesomeIcon icon={faCakeCandles} className='text-yellow-400 text-2xl' />
       } else if(dateInWeek === 0) {
-        datesArray.push(<div key={i} className=" text-red-500 h-10">{i}</div>);
+        datesArray.push(<div key={i} className=" text-red-500 py-2 h-10">{i}</div>);
       }else{
-        datesArray.push(<div key={i} className="h-10  ">{i}</div>);
+        datesArray.push(<div key={i} className="h-10 py-2 ">{i}</div>);
       }
     }
 
@@ -41,11 +45,13 @@ function Calendar() {
   return (
    <>
    <div className="px-3 pt-[40px] pb-[80px]  h-full">
-<div className="mx-auto ">
-           <h2 className='mb-4 '>{year}년 {month+1}월</h2>
-           <div className='grid grid-cols-7'>
-               {['일', '월', '화', '수', '목', '금', '토'].map((dayName,index)=><strong className='mb-4 text-cetner' key={index}>{dayName}</strong>)}
+<div className="mx-auto aline">
+           <h2 className='mb-4'>{year}년 {month+1}월</h2>
+           <div className="">
+           <div className='grid grid-cols-7  '>
+               {['일', '월', '화', '수', '목', '금', '토'].map((dayName,index)=><strong className='mb-4 text-cetner ' key={index}>{dayName}</strong>)}
                {datesArray}
+           </div>
            </div>
        </div>
        </div>

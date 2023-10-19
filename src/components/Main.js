@@ -12,7 +12,7 @@ function Main() {
     return (
         <div className='h-full' >
             <div className="max-w-[380px] h-full mx-auto my-0 bg-white">
-                <img className='w-full block' src="./../Images/1.jpg" alt="시훈" />
+                <img className='w-full block' src="./../Images/main.jpg" alt="시훈" />
                 {/* <div className="gradient"></div> */}
                 <div className=" text-center">
                     <div className="py-[40px]">
