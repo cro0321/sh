@@ -25,7 +25,7 @@ function Calendar() {
       if (i === 24) {
         datesArray.push(<div key={i} className="border-b border-red-500 h-10 ">{i}</div>);
       } else if(dateInWeek === 0) {
-        datesArray.push(<div key={i} className=" text-red-500   h-10">{i}</div>);
+        datesArray.push(<div key={i} className=" text-red-500 h-10">{i}</div>);
       }else{
         datesArray.push(<div key={i} className="h-10  ">{i}</div>);
       }
