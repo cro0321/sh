@@ -45,7 +45,7 @@ function Main() {
               <span>김종준</span><FontAwesomeIcon icon={faEllipsis} className='mx-2' /><button onClick="document.location.href='tel:010-2814-7361'"><a href="tel:010-2814-7361"><FontAwesomeIcon icon={faPhone} /></a></button>
               </div>
               <div className="">
-              <span>남보배</span><FontAwesomeIcon icon={faEllipsis} className='mx-2' /><button onClick="document.location.href='tel:010-2814-7361'"><a href="tel:010-2814-7361"><FontAwesomeIcon icon={faPhone} /></a></button>
+              <span>남보배</span><FontAwesomeIcon icon={faEllipsis} className='mx-2' /><button onClick="document.location.href='tel:010-4337-7237'"><a href="tel: 010-4150-8117"><FontAwesomeIcon icon={faPhone} /></a></button>
               </div>
           </div>
           <Calendar/>
