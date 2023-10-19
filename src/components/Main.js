@@ -10,7 +10,7 @@ function Main() {
 
 
     return (
-        
+
         <div className='w-full h-full' >
             <div className="max-w-[380px] h-full mx-auto my-0 bg-white">
 
