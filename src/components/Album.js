@@ -12,7 +12,7 @@ import 'swiper/css/navigation';
 
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 function Album() {
     const progressCircle = useRef(null);
     const progressContent = useRef(null);
@@ -41,7 +41,7 @@ function Album() {
         <SwiperSlide><img  src="./../Images/1.jpg" alt="시훈" /></SwiperSlide>
         <SwiperSlide><img  src="./../Images/2.jpg" alt="시훈" /></SwiperSlide>
         <SwiperSlide><img  src="./../Images/3.jpg" alt="시훈" /></SwiperSlide>
-        <SwiperSlide><img  src="./../Images/1.jpg" alt="시훈" /></SwiperSlide>
+        <SwiperSlide><img  src="./../Images/4.jpg" alt="시훈" /></SwiperSlide>
         <SwiperSlide><img  src="./../Images/2.jpg" alt="시훈" /></SwiperSlide>
         <SwiperSlide><img  src="./../Images/3.jpg" alt="시훈" /></SwiperSlide>
         <SwiperSlide><img  src="./../Images/1.jpg" alt="시훈" /></SwiperSlide>
