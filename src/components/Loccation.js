@@ -50,8 +50,7 @@ function Loccation() {
     <p className='text-[#141c2f] my-[10px] text-[15px]'>자동차</p>
     <p className='text-[14px] text-[#777]'>서울 → 강변북로, 자유로 IC → 서울외곽순환고속도로 일산 IC → 중앙로 백석역 좌회전 250m</p>
     <p className='text-[#141c2f] my-[10px] text-[15px]'>주차</p>
-    <p className='text-[14px] text-pink-600 '>본건물 (2시간) 및 백석 제1 공영주차장 (3시간)</p>
-<div className="mb-20"></div>
+    <p className='text-[14px] text-pink-600 pb-[50px]'>본건물 (2시간) 및 백석 제1 공영주차장 (3시간)</p>
   </div>
     </>
   )
