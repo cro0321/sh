@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import Calendar from './Calendar'
 import Album from './Album'
+import Loccation from './Loccation'
 
 
 function Main() {
@@ -49,8 +50,9 @@ function Main() {
           </div>
           <Calendar/>
           <Album/>
+          <Loccation/>
                 </div>
-                
+         
                   
             </div>
         </div>

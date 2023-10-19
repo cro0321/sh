@@ -17,6 +17,7 @@
     "react-calendar": "^4.6.1",
     "react-datepicker": "^4.21.0",
     "react-dom": "^18.2.0",
+    "react-kakao-maps-sdk": "^1.1.21",
     "react-scripts": "5.0.1",
     "react-tailwindcss-datepicker": "^1.6.6",
     "swiper": "^10.3.1",
