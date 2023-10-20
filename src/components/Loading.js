@@ -8,7 +8,7 @@ function Loading() {
 
     <>
  
-        <div className=" max-w-full fixed inset-0 flex items-center justify-center z-10">
+        <div className="w-full fixed inset-0 flex items-center justify-center z-10">
           <div className="max-w-[380px] h-[100vh] bg-white flex justify-center mx-auto items-center flex-col gradient">
             <img src="./../Images/loading.gif" className='w-[30%]' alt="loading" />
             <p className='animate__animated animate__fadeInUp -mt-[5px] text-xl loading'>시훈이의 첫 생일</p>
