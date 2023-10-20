@@ -5,6 +5,7 @@ import Calendar from './Calendar'
 import Album from './Album'
 import Loccation from './Loccation'
 import ClockTime from './ClockTime'
+import Footer from './Footer'
 import WOW from 'wowjs';
 import 'animate.css/animate.min.css';
 
@@ -55,6 +56,7 @@ function Main() {
                     <ClockTime />
                     <Album />
                     <Loccation />
+                    <Footer/>
                 </div>
 
 
