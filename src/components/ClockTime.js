@@ -25,7 +25,7 @@ function ClockTime() {
     }, []);
     return (
         <>
-            <div className="pb-[50px] ">
+            <div className="pb-[50px] wow animate__animated animate__fadeInUp ">
                 <FontAwesomeIcon icon={faHeart} color='#ff4e7f' className='mx-1' /><span>시훈이 생일까지</span><span className=" text-[#569AED]">{daysLeft}</span><span>일 전</span> <FontAwesomeIcon icon={faHeart} color='#ff4e7f' className='mx-1' />
             </div>
         </>
