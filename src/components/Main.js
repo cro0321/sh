@@ -19,7 +19,7 @@ function Main() {
 
     return (
 
-        <div className='w-full h-full '>
+        <div className='max-w-full h-full '>
             <div className="w-[380px] h-full mx-auto my-0 bg-white">
                 <img className='w-full block ' src="./../Images/main.png" alt="시훈" />
                 <div className=" text-center">
