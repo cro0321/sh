@@ -18,7 +18,7 @@ function Main() {
                     <div className="py-[40px]">
                         <p className='text-base inline-block border-b-2 border-[#888]'>시훈이의 첫 생일</p>
                     </div>
-                    <div className="pb-[30px] ">
+                    <div className="pb-[30px]">
                         <span>아빠 김종준</span>
                         <FontAwesomeIcon icon={faHeart} color='#ff4e7f' className='mx-1' /><span>엄마 남보배</span>
                         <p>2023년 11월 24일(금) AM 11:30</p>

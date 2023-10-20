@@ -42,11 +42,12 @@ function Album() {
         <SwiperSlide><img src="./../Images/2.jpg" alt="시훈" /></SwiperSlide>
         <SwiperSlide><img src="./../Images/3.jpg" alt="시훈" /></SwiperSlide>
         <SwiperSlide><img src="./../Images/4.jpg" alt="시훈" /></SwiperSlide>
-        <SwiperSlide><img src="./../Images/2.jpg" alt="시훈" /></SwiperSlide>
-        <SwiperSlide><img src="./../Images/3.jpg" alt="시훈" /></SwiperSlide>
-        <SwiperSlide><img src="./../Images/1.jpg" alt="시훈" /></SwiperSlide>
-        <SwiperSlide><img src="./../Images/2.jpg" alt="시훈" /></SwiperSlide>
-        <SwiperSlide><img src="./../Images/3.jpg" alt="시훈" /></SwiperSlide>
+        <SwiperSlide><img src="./../Images/5.jpg" alt="시훈" /></SwiperSlide>
+        <SwiperSlide><img src="./../Images/6.jpg" alt="시훈" /></SwiperSlide>
+        <SwiperSlide><img src="./../Images/7.jpg" alt="시훈" /></SwiperSlide>
+        <SwiperSlide><img src="./../Images/8.jpg" alt="시훈" /></SwiperSlide>
+        <SwiperSlide><img src="./../Images/9.jpg" alt="시훈" /></SwiperSlide>
+        <SwiperSlide><img src="./../Images/10.jpg" alt="시훈" /></SwiperSlide>
 
       </Swiper>
 
