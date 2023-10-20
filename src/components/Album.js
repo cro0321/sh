@@ -23,7 +23,7 @@ function Album() {
   return (
     <>
 
-      <div className="text-base mb-4">Album</div>
+      <div className="text-lg mb-[40px] border-b-2 border-[#888] inline-block ">Album</div>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}

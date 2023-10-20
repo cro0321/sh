@@ -46,7 +46,7 @@ function Calendar() {
    <>
    <div className="px-3 pt-[40px] pb-[80px]  h-full">
 <div className="mx-auto aline">
-           <h2 className='mb-4'>{year}년 {month+1}월</h2>
+           <h2 className='mb-[40px]'>{year}년 {month+1}월</h2>
            <div className="">
            <div className='grid grid-cols-7  '>
                {['일', '월', '화', '수', '목', '금', '토'].map((dayName,index)=><strong className='mb-4 text-cetner ' key={index}>{dayName}</strong>)}
