@@ -8,7 +8,7 @@ import ClockTime from './ClockTime'
 
 function Main() {
 
-    const num = document.location.href='tel:010-4150-8117'
+
     return (
 
         <div className='w-full h-full' >
