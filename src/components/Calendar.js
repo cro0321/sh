@@ -25,7 +25,7 @@ function Calendar() {
       let dateInWeek = new Date(year, month, i).getDay();
       if (i === 24) {
         datesArray.push(<div key={i} className="-my-[11px] ml-1  h-10 "><img className='
-         w-14 h-14 block mx-auto'  src="./../Images/Calendar.gif" alt="시훈" /></div>);
+         w-14 h-14 block mx-auto'  src="./../Images/calendar.gif" alt="시훈" /></div>);
         // <img  src="./../Images/1.jpg" alt="시훈" />
         //<FontAwesomeIcon icon={faCakeCandles} className='text-yellow-400 text-2xl' />
       } else if(dateInWeek === 0) {
