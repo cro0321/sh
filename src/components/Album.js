@@ -40,7 +40,7 @@ function Album() {
         <SwiperSlide><img src="./../Images/9.jpg" alt="시훈" /></SwiperSlide>
         <SwiperSlide><img src="./../Images/10.jpg" alt="시훈" /></SwiperSlide>
         <SwiperSlide><img src="./../Images/11.png" alt="시훈" /></SwiperSlide>
-        <SwiperSlide><img src="./../Images/12.png" alt="시훈" /></SwiperSlide>
+        <SwiperSlide><img src="./../Images/12.webp" alt="시훈" /></SwiperSlide>
       </Swiper>
 
     </>
