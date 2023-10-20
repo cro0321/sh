@@ -44,7 +44,7 @@ function Calendar() {
 
   return (
    <>
-   <div className="px-3 pt-[40px] pb-[80px]  h-full">
+   <div className="px-3 pt-[40px] pb-[50px]  h-full">
 <div className="mx-auto aline">
            <h2 className='mb-[40px]'>{year}년 {month+1}월</h2>
            <div className="">

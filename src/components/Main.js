@@ -4,6 +4,7 @@ import React from 'react'
 import Calendar from './Calendar'
 import Album from './Album'
 import Loccation from './Loccation'
+import ClockTime from './ClockTime'
 
 function Main() {
 
@@ -37,14 +38,15 @@ function Main() {
 
                     <div className="py-[40px] ">
                         <div className="">
-                            <span>김종준</span><FontAwesomeIcon icon={faEllipsis} className='mx-2' /><button onClick={num}><a href="tel:010-4150-8117"><FontAwesomeIcon icon={faPhone} /></a></button><button onClick={num}><a href="sms:010-4150-8117"><FontAwesomeIcon icon={faEnvelope} className='mx-3'/></a></button>
+                            <span>김종준</span><FontAwesomeIcon icon={faEllipsis} className='mx-2' /><button onClick="document.location.href='tel:010-4150-8117'"><a href="tel:010-4150-8117"><FontAwesomeIcon icon={faPhone} /></a></button><button onClick="document.location.href='tel:010-4150-8117'"><a href="sms:010-4150-8117"><FontAwesomeIcon icon={faEnvelope} className='mx-3'/></a></button>
                          
                         </div>
                         <div className="">
-                            <span>남보배</span><FontAwesomeIcon icon={faEllipsis} className='mx-2' /><button onClick={num}><a href="tel:010-4337-7237"><FontAwesomeIcon icon={faPhone} /></a></button><button onClick={num}><a href="sms:010-4337-7237"><FontAwesomeIcon icon={faEnvelope} className='mx-3'/></a></button>
+                            <span>남보배</span><FontAwesomeIcon icon={faEllipsis} className='mx-2' /><button onClick="document.location.href='tel:010-4337-7237'"><a href="tel:010-4337-7237"><FontAwesomeIcon icon={faPhone} /></a></button><button onClick="document.location.href='tel:010-4337-7237'"><a href="sms:010-4337-7237"><FontAwesomeIcon icon={faEnvelope} className='mx-3'/></a></button>
                         </div>
                     </div>
                     <Calendar />
+                    <ClockTime/>
                     <Album />
                     <Loccation />
                 </div>
