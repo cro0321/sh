@@ -37,9 +37,9 @@ function Loccation() {
     <>
 
       <div className="text-lg pt-[80px] inline-block border-b-2 border-[#888] ">Location</div>
-      <p className=' text-[#333] mt-[40px] '>디아뜨크리스탈 2층</p>
+      <p className=' text-[#333] mt-[40px]'>디아뜨크리스탈 2층</p>
       <p className=' text-[#333] pb-[30px]'>경기도 고양시 일산동구 일산로 16</p>
-      <div id="map" style={{ width: "378px", height: "298px" }}></div>
+      <div className='mx-auto max-w-full h-[298px]' id="map"></div>
       <div className="px-[30px] pt-[40px] text-left">
         <p className='text-[#141c2f] mb-[10px] text-[15px]'><FontAwesomeIcon icon={faBus} className='mr-1' />버스</p>
         <p className='text-[14px] text-[#777]'>흰돌5단지, 서안아파트 정류장 하차</p>
