@@ -34,7 +34,6 @@ function Album() {
         pagination={{
           clickable: true,
         }}
-
         modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
@@ -48,7 +47,7 @@ function Album() {
         <SwiperSlide><img src="./../Images/8.jpg" alt="시훈" /></SwiperSlide>
         <SwiperSlide><img src="./../Images/9.jpg" alt="시훈" /></SwiperSlide>
         <SwiperSlide><img src="./../Images/10.jpg" alt="시훈" /></SwiperSlide>
-
+        <SwiperSlide><img src="./../Images/11.png" alt="시훈" /></SwiperSlide>
       </Swiper>
 
     </>

@@ -11,7 +11,7 @@ function Main() {
 
     return (
 
-        <div className='w-full h-full' >
+        <div className='w-full h-full'>
             <div className="max-w-[380px] h-full mx-auto my-0 bg-white">
 
                 <img className='w-full block ' src="./../Images/main.jpg" alt="시훈" />
@@ -38,15 +38,15 @@ function Main() {
 
                     <div className="py-[40px] ">
                         <div className="">
-                            <span>김종준</span><FontAwesomeIcon icon={faEllipsis} className='mx-2' /><button onClick="document.location.href='tel:010-4150-8117'"><a href="tel:010-4150-8117"><FontAwesomeIcon icon={faPhone} /></a></button><button onClick="document.location.href='tel:010-4150-8117'"><a href="sms:010-4150-8117"><FontAwesomeIcon icon={faEnvelope} className='mx-3'/></a></button>
-                         
+                            <span>김종준</span><FontAwesomeIcon icon={faEllipsis} className='mx-2' /><button onClick="document.location.href='tel:010-4150-8117'"><a href="tel:010-4150-8117"><FontAwesomeIcon icon={faPhone} /></a></button><button onClick="document.location.href='tel:010-4150-8117'"><a href="sms:010-4150-8117"><FontAwesomeIcon icon={faEnvelope} className='mx-3' /></a></button>
+
                         </div>
                         <div className="">
-                            <span>남보배</span><FontAwesomeIcon icon={faEllipsis} className='mx-2' /><button onClick="document.location.href='tel:010-4337-7237'"><a href="tel:010-4337-7237"><FontAwesomeIcon icon={faPhone} /></a></button><button onClick="document.location.href='tel:010-4337-7237'"><a href="sms:010-4337-7237"><FontAwesomeIcon icon={faEnvelope} className='mx-3'/></a></button>
+                            <span>남보배</span><FontAwesomeIcon icon={faEllipsis} className='mx-2' /><button onClick="document.location.href='tel:010-4337-7237'"><a href="tel:010-4337-7237"><FontAwesomeIcon icon={faPhone} /></a></button><button onClick="document.location.href='tel:010-4337-7237'"><a href="sms:010-4337-7237"><FontAwesomeIcon icon={faEnvelope} className='mx-3' /></a></button>
                         </div>
                     </div>
                     <Calendar />
-                    <ClockTime/>
+                    <ClockTime />
                     <Album />
                     <Loccation />
                 </div>
