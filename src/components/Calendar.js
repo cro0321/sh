@@ -1,9 +1,3 @@
-import { faCakeCandles } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import dayjs from 'dayjs';
-import React, { useState } from 'react'
-import "react-datepicker/dist/react-datepicker.css";
-
 
 function Calendar() {
   const year = 2023;

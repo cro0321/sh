@@ -1,5 +1,4 @@
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 
@@ -7,7 +6,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
 
 
 
@@ -42,6 +40,7 @@ function Album() {
         <SwiperSlide><img src="./../Images/9.jpg" alt="시훈" /></SwiperSlide>
         <SwiperSlide><img src="./../Images/10.jpg" alt="시훈" /></SwiperSlide>
         <SwiperSlide><img src="./../Images/11.png" alt="시훈" /></SwiperSlide>
+        <SwiperSlide><img src="./../Images/12.png" alt="시훈" /></SwiperSlide>
       </Swiper>
 
     </>
