@@ -13,8 +13,7 @@ function Main() {
 
         <div className='w-full h-full'>
             <div className="max-w-[380px] h-full mx-auto my-0 bg-white">
-
-                <img className='w-full block ' src="./../Images/main.jpg" alt="시훈" />
+                <img className='w-full block ' src="./../Images/main.png" alt="시훈" />
                 <div className=" text-center">
                     <div className="py-[40px]">
                         <p className='text-lg inline-block border-b-2 border-[#888]'>시훈이의 첫 생일</p>
