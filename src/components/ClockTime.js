@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react'
 function ClockTime() {
     const [daysLeft, setDaysLeft] = useState('');
     useEffect(() => {
-        const countDownDate = new Date('2023-11-24 00:00:00').getTime();
+        const countDownDate = new Date('2023-11-24 24:00:00').getTime();
 
         const dDayInterval = setInterval(() => {
             const currentDate = new Date().getTime();
@@ -13,7 +13,7 @@ function ClockTime() {
 
             if (distanceInMillisecs < 0) {
                 clearInterval(dDayInterval);
-                setDaysLeft('D-day Passed');
+                setDaysLeft(' 0');
                 return;
             }
 
